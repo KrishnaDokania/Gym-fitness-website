@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>
+    <link rel="stylesheet" href="gym.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="shortcut icon" href="gym img/logo (2).jpg" type="image/x-icon">
+    <script src="gym.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <span class="logo">Gym</span>
+            <ul>
+                <li><a href="gym.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="search.html" method="get">
+            <input type="text" class="input" name="query" placeholder="Find here" >
+            <button class="search">Search</button>
+        </form>
+        </div>
+    </nav>
+    <div class="hr2">
+        <hr>
+    </div>
+    <div class="header header2">
+        <div class="center">
+            <div><img src="gym img/logo (2).jpg" alt=""></div>
+        </div>
+        <div class="header">
+            <div class="form">
+                <div class="flex">
+                    <h3>Name&nbsp;:</h3><input type="text" id="name" class="text" placeholder="Enter your name" required>
+                </div>
+                <div class="flex">
+                    <h3>Mobile Number&nbsp;:</h3> <input type="number" id="number" class="text"
+                        placeholder="Enter your mobile number" required>
+                </div>
+                <div class="flex">
+                    <h3>Email Id&nbsp;:</h3><input type="text" class="text" id="email" placeholder="Enter your Email Address">
+                </div>
+                <div class="flex">
+                    <h3>Query&nbsp;:</h3><select name="" select id="options" class="text">
+                        <option value="1">Membership issue</option>
+                        <option value="2">Payment issue</option>
+                        <option value="3">Location issue</option>
+                        <option value="4">Contact issue</option>
+                        <option value="5">Others</option>
+                    </select>
+                </div>
+                <div class="flex">
+                    <h3>Details&nbsp;:</h3><input type="text" id="query" class="text" max="100" placeholder="Enter your Query">
+                </div>
+                <div class="flex">
+                    <div class="flexbox">
+                    <input type="submit" class="search">
+                    <button class="search">Cancel</button>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </div>
+        <div class="hr">
+            <hr>
+        </div>
+
+
+        <footer class="endbar"></footer>
+</body>
+
+</html>
